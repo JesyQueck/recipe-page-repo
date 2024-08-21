@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: young-serif;
+    src: url(fonts/young-serif/YoungSerif-Regular.ttf);
+}
+@font-face {
+    font-family: outfit;
+    src: url(fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+.container{
+    background-color: hsl(0, 0%, 100%);
+    width: 400px;
+    margin: 100px auto;
+    border-radius: 15px;
+    padding: 15px;
+    padding-bottom: 35px;
+    position: relative;
+}
+img{
+    width: 400px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+h1{
+    color: hsl(24, 5%, 18%);
+    font-family: young-serif;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+p{
+    color:hsl(30, 10%, 34%);
+    font-family: outfit;
+    font-size: 10px;
+    font-weight: 400;
+} 
+.innercont{
+    background-color: hsl(330, 100%, 98%);
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+h2{
+    font-family: outfit;
+    font-size: 18px;
+    padding-bottom: 10px;
+    color: hsl(332, 51%, 32%);
+}
+.innercont ul{
+    color: hsl(332, 51%, 32%);
+}
+.innercont ul li {
+    margin-left: 20px;
+}
+ul li p{
+    font-size: 12px;
+    color:hsl(30, 10%, 34%);
+    font-family: outfit;
+    padding-left: 10px;
+    font-weight: 400;
+}
+.ulstyle{
+    font-weight: 600;
+}
+hr{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: hsl(30, 10%, 34%);
+}
+h3{
+    font-size: 18px;
+    font-family: young-serif;
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 15px;
+}
+ol li, ul li{
+    color: hsl(14, 45%, 36%);
+    margin-left: 15px;
+    font-family: young-serif;
+    font-size: 10px;
+}
+
+ol li p{
+    font-size: 10px;
+    color: hsl(30, 10%, 34%);
+    font-family: outfit;
+}
+.sp1{
+    font-weight: 600;
+}
+.table{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    font-family: outfit;
+    font-size: 15px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+.table h4{
+    color: hsl(30, 10%, 34%);
+    font-size: 15px;
+}
+#tb1{
+    margin-right: 135px;
+}
+#tb2{
+    margin-right: 152px;
+}
+#tb3{
+    margin-right: 142px;
+}
+#tb4{
+    margin-right: 170px;
+}
+
+.attribution{
+    font: young-serif;
+    font-size: 20px;
+    color: hsl(24, 5%, 18%);
+    font-weight: 400px;
+    text-align: center;
+    margin-top: -2%;
+    padding-bottom: 20px;
+}
+.attribution a{
+    color: hsl(14, 45%, 36%);
+    text-decoration: solid;
+    font-weight: 600px;
+}
+.attribution a:hover{
+    color: hsl(30, 10%, 34%);
+    font-size: larger;
+    font-weight: 900px;
+    text-decoration: underline;
+    text-decoration-color: hsl(14, 45%, 36%);
+}
